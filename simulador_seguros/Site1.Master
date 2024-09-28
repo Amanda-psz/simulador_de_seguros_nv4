@@ -1,0 +1,24 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site1.master.cs" Inherits="simulador_seguros.Site1" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>Simulador de Seguros</title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                <h1>Simulador de Seguros</h1>
+                <h2>Acesse nosso formulário para simular o seguro de sua preferência, de acordo com sua necessidade.</h2><br />
+                <asp:Button ID="Button_fomulario" runat="server" Text="Formulário" />
+
+            </asp:ContentPlaceHolder>
+        </div>
+    </form>
+</body>
+</html>
